@@ -54,8 +54,12 @@ body {
     display: flex;
     justify-content: space-around;
 }
-img {
+.img-act {
     height: 15vw;
     width: 15vw;
     border-radius: 50%;
+}
+
+#img-guide{
+    width: 7rem;
 }
