@@ -47,19 +47,43 @@ body {
 }
 
 .activities h3{
-    margin: 0;
+    margin: 1.5rem 0 1.5rem 0;
 }
 
 .activity-container{
     display: flex;
     justify-content: space-around;
 }
+
+.activity-item{
+    text-align: center;
+}
+
+.activity-item h4{
+    margin-bottom: 1rem;
+    line-height: 1rem;
+}
+
 .img-act {
     height: 15vw;
     width: 15vw;
     border-radius: 50%;
 }
 
+.guide{
+    background-color: #A8DADC;
+    border-radius: 0.4rem;
+    border-bottom: 0.5rem solid #1D3557;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* max-width: 20rem; */
+    margin: 3rem auto;
+}
+
 #img-guide{
-    width: 7rem;
+    height: 8rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
 }
