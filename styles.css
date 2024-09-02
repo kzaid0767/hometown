@@ -78,7 +78,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    /* max-width: 20rem; */
+    max-width: 20rem;
     margin: 3rem auto;
 }
 
@@ -86,4 +86,11 @@ body {
     height: 8rem;
     border-radius: 1rem;
     margin-top: 0.5rem;
+}
+
+@media (max-width: 350px) {
+    .guide{
+        width: 80vw;
+        flex-direction: column;
+    }
 }
